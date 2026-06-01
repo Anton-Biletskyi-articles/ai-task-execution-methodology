@@ -1,0 +1,55 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.drop-zone {
+    background-color: #ffffff;
+    border: 2px dashed #cbd5e1;
+    border-radius: 8px;
+    width: 250px;
+    min-height: 300px;
+    padding: 20px;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+/* Class added via JS when an item is hovered over a zone */
+.drop-zone.hovered {
+    background-color: #e2e8f0;
+    border-color: #3b82f6;
+}
+
+.drop-zone h3 {
+    text-align: center;
+    margin-top: 0;
+    color: #475569;
+}
+
+.draggable {
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    cursor: grab;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: opacity 0.2s;
+}
+
+/* Visual cue when the item is being dragged */
+.draggable:active {
+    cursor: grabbing;
+    opacity: 0.5;
+}

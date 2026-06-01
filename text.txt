@@ -1,0 +1,6 @@
+1 доска шахматная 
+2 фигура с драг дропом
+
+"Create an HTML/CSS page of a chessboard for a future chess game project. However, make it look like it was built according to the old HTML4 standard, complete with typical architectural mistakes of that era, outdated practices (like table layout), and messy code."
+
+"Create an HTML, CSS, and JS Drag & Drop example."
